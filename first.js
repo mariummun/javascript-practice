@@ -1,1 +1,9 @@
-console.log("Hello world! ");
+{
+    let a = 5;
+    console.log(a);
+}
+
+{
+    let a = 15;
+    console.log(a);
+}
