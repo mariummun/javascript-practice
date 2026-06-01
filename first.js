@@ -23,3 +23,11 @@ const profile = {
     followingCount : 150,
     isFollow : true
 };
+
+let value = 4;
+if (value % 2 === 0){
+    console.log("even");
+}
+else{
+    console.log("odd");
+}
