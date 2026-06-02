@@ -31,3 +31,7 @@ if (value % 2 === 0){
 else{
     console.log("odd");
 }
+
+let age = 48;
+let result = age > 18 ? "an adult" : "not an adult";
+console.log(result);
