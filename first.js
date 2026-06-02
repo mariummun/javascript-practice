@@ -50,7 +50,11 @@
 // }
 
 {
-    for(let count=1; count<=50; count++){
-        console.log("hello from the other side");
+    let n = prompt("Enter the value of n: ");
+    let number;
+    let sum = 0;
+    for(number=1; number<=n; number++){
+        sum += number;
     }
+    console.log("sum is: ", sum);
 }
