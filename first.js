@@ -39,13 +39,18 @@
 //     console.log(result);
 // }
 
+// {
+//     let number = prompt("enter a number: ");
+//     if(number % 5 == 0){
+//         console.log(number," is a multiple 5");
+//     }
+//     else{
+//         console.log(number, " is not a multiple of 5");
+//     }
+// }
 
 {
-    let number = prompt("enter a number: ");
-    if(number % 5 == 0){
-        console.log("divisible by 5");
-    }
-    else{
-        console.log("not divisible by 5");
+    for(let count=1; count<=50; count++){
+        console.log("hello from the other side");
     }
 }
