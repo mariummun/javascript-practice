@@ -49,12 +49,20 @@
 //     }
 // }
 
+// {
+//     let n = prompt("Enter the value of n: ");
+//     let number;
+//     let sum = 0;
+//     for(number=1; number<=n; number++){
+//         sum += number;
+//     }
+//     console.log("sum is: ", sum);
+// }
+
 {
-    let n = prompt("Enter the value of n: ");
-    let number;
-    let sum = 0;
-    for(number=1; number<=n; number++){
-        sum += number;
-    }
-    console.log("sum is: ", sum);
+    let i = 5;
+    do{
+        console.log(i);
+        i++;
+    }while(i>=9);
 }
