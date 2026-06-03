@@ -49,6 +49,7 @@
 //     }
 // }
 
+//for loop
 // {
 //     let n = prompt("Enter the value of n: ");
 //     let number;
@@ -59,6 +60,7 @@
 //     console.log("sum is: ", sum);
 // }
 
+//do-while loop
 // {
 //     let i = 5;
 //     do{
@@ -66,6 +68,8 @@
 //         i++;
 //     }while(i>=9);
 // }
+
+//for-of loop
 // {
 //     str = "java script"
 //     let size = 0;
@@ -77,15 +81,43 @@
 //     console.log("size of string: ", size);
 // }
 
-{
-    let student = {
-        name : "marium",
-        age : 20,
-        salary : 5000,
-        cgpa : 3.88
-    };
+//for-in loop
+// {
+//     let student = {
+//         name : "marium",
+//         age : 20,
+//         salary : 5000,
+//         cgpa : 3.88
+//     };
 
-    for(let i in student){
-        console.log(i);
+//     for(let key in student){
+//         console.log("key: ",key, "   value: ", student[key]);
+//     }
+// }
+
+//even-odd
+// {
+//     for(let i=0; i<=100; i++){
+//         if(i%2==0){
+//             console.log(i);
+//         }
+//     } 
+// }
+
+//guess the correct number
+{
+    let actualNumber = 40;
+    let guessNumber = Number(prompt("guess the number! "));
+
+    if(actualNumber == guessNumber){
+        console.log("Congrats! You have entered the CORRECT number!");
+    } 
+    else if(actualNumber>guessNumber){
+        console.log("Whoops! Here's a hint. The number's bigger..");
+        guessNumber = Number(prompt("guess the number! "));
+    }
+    else{
+        console.log("Whoops! Here's a hint. The number's smaller..");
+        guessNumber = Number(prompt("guess the number! "));
     }
 }
