@@ -59,10 +59,16 @@
 //     console.log("sum is: ", sum);
 // }
 
+// {
+//     let i = 5;
+//     do{
+//         console.log(i);
+//         i++;
+//     }while(i>=9);
+// }
 {
-    let i = 5;
-    do{
-        console.log(i);
-        i++;
-    }while(i>=9);
+    str = "java script "
+    for(let i of str){
+        console.log("i = ", i);
+    }
 }
