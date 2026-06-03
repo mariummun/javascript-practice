@@ -66,9 +66,26 @@
 //         i++;
 //     }while(i>=9);
 // }
+// {
+//     str = "java script"
+//     let size = 0;
+//     for(let i of str){
+//         console.log("i = ", i);
+//         size++;
+//     }
+    
+//     console.log("size of string: ", size);
+// }
+
 {
-    str = "java script "
-    for(let i of str){
-        console.log("i = ", i);
+    let student = {
+        name : "marium",
+        age : 20,
+        salary : 5000,
+        cgpa : 3.88
+    };
+
+    for(let i in student){
+        console.log(i);
     }
 }
