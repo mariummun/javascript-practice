@@ -137,4 +137,10 @@
 
     let tLiteral = `the sum is given ${1+4+5}`;
     console.log(tLiteral);
+
+    //escape characters
+    console.log("This\nis\nJS\npractice");
+    console.log("This\tis\tJS\tpractice");
+
+
 }
