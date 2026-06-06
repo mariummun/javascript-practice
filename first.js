@@ -105,19 +105,31 @@
 // }
 
 //guess the correct number
-{
-    let actualNumber = 40;
-    let guessNumber = Number(prompt("guess the number! "));
+// {
+//     let actualNumber = 40;
+//     let guessNumber = Number(prompt("guess the number! "));
 
-    if(actualNumber == guessNumber){
-        console.log("Congrats! You have entered the CORRECT number!");
-    } 
-    else if(actualNumber>guessNumber){
-        console.log("Whoops! Here's a hint. The number's bigger..");
-        guessNumber = Number(prompt("guess the number! "));
-    }
-    else{
-        console.log("Whoops! Here's a hint. The number's smaller..");
-        guessNumber = Number(prompt("guess the number! "));
-    }
+//     if(actualNumber == guessNumber){
+//         console.log("Congrats! You have entered the CORRECT number!");
+//     } 
+//     else if(actualNumber>guessNumber){
+//         console.log("Whoops! Here's a hint. The number's bigger..");
+//         guessNumber = Number(prompt("guess the number! "));
+//     }
+// 
+
+//template literals ``
+{
+    let obj = {
+        item : "chocolate",
+        price : 50
+    };
+
+    let templateLiteralOutput = `The price of a ${item} is ${price}`;
+    console.log(templateLiteralOutput);
+
+    //use template literals instead of manual console.log. 
+    //template literal considers everything, including variables inside it,
+    //as part of one string.
+    // console.log("The price of", obj.item, " is", obj.price);
 }
