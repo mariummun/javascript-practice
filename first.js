@@ -132,4 +132,9 @@
     //template literal considers everything, including variables inside it,
     //as part of one string.
     // console.log("The price of", obj.item, " is", obj.price);
+
+    //string interpolation
+
+    let tLiteral = `the sum is given ${1+4+5}`;
+    console.log(tLiteral);
 }
