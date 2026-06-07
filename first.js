@@ -144,13 +144,24 @@
 // }
 
 //string methods
+// {
+//     let str = "hello world";
+//     console.log(str.slice(3, 7));
+
+//     let str1 = "hello";
+//     let str2 = " world";
+
+//     let res = str1.concat(str2);
+//     console.log(res);
+// }
+
+//practice of string methods
 {
-    let str = "hello world";
-    console.log(str.slice(3, 7));
+    let str1 = "@";
+    let fullName = prompt("Enter your name(without any space): ");
+    let fullNameLength = fullName.length;
 
-    let str1 = "hello";
-    let str2 = " world";
+    let str4 = str1.concat(fullName);
 
-    let res = str1.concat(str2);
-    console.log(res);
+    console.log(str4.concat(fullNameLength));
 }
