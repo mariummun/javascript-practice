@@ -156,12 +156,21 @@
 // }
 
 //practice of string methods
+// {
+//     let str1 = "@";
+//     let fullName = prompt("Enter your name(without any space): ");
+//     let fullNameLength = fullName.length;
+
+//     let str4 = str1.concat(fullName);
+
+//     console.log(str4.concat(fullNameLength));
+// }
+
+//Arrays
 {
-    let str1 = "@";
-    let fullName = prompt("Enter your name(without any space): ");
-    let fullNameLength = fullName.length;
+    let arr = ["kim namjoon", "kim seokjin", "jung hoseok", "park jimin", "kim taehyung", "jeon jeongkook"];
 
-    let str4 = str1.concat(fullName);
-
-    console.log(str4.concat(fullNameLength));
+    for(let i =0; i<arr.length; i++){
+        console.log(arr[i]);
+    }
 }
