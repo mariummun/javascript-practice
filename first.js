@@ -119,14 +119,14 @@
 // 
 
 //template literals ``
-{
-    let obj = {
-        item : "chocolate",
-        price : 50
-    };
+// {
+//     let obj = {
+    //     item : "chocolate",
+    //     price : 50
+    // };
 
-    let templateLiteralOutput = `The price of a ${item} is ${price}`;
-    console.log(templateLiteralOutput);
+    // let templateLiteralOutput = `The price of a ${item} is ${price}`;
+    // console.log(templateLiteralOutput);
 
     //use template literals instead of manual console.log. 
     //template literal considers everything, including variables inside it,
@@ -135,12 +135,16 @@
 
     //string interpolation
 
-    let tLiteral = `the sum is given ${1+4+5}`;
-    console.log(tLiteral);
+//     let tLiteral = `the sum is given ${1+4+5}`;
+//     console.log(tLiteral);
 
-    //escape characters
-    console.log("This\nis\nJS\npractice");
-    console.log("This\tis\tJS\tpractice");
+//     //escape characters
+//     console.log("This\nis\nJS\npractice");
+//     console.log("This\tis\tJS\tpractice");
+// }
 
-
+//string methods
+{
+    let str = "hello world";
+    console.log(str.slice(3, 7));
 }
