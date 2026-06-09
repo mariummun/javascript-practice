@@ -168,9 +168,15 @@
 
 //Arrays
 {
-    let arr = ["kim namjoon", "kim seokjin", "jung hoseok", "park jimin", "kim taehyung", "jeon jeongkook"];
+    let arr = ["kim namjoon", "kim seokjin", "min yoongi",  "jung hoseok", "park jimin", "kim taehyung", "jeon jungkook"];
 
     for(let i =0; i<arr.length; i++){
-        console.log(arr[i]);
+        console.log(arr[i].toUpperCase());
+    }
+
+    let cities = ["dhaka", "seoul", "busan", "tokyo", "beijing"];
+
+    for(let city of cities){
+        console.log(city);
     }
 }
