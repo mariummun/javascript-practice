@@ -181,19 +181,30 @@
 //     }
 // }
 //Array practice- find avg marks
+// {
+//     studentNumber = prompt("Enter how many students: ");
+//     let marks = [];
+
+//     for(let i =0; i<studentNumber; i++){
+//         marks[i] = Number(prompt("Enter mark: "));
+//     }
+//     let sum =0;
+//     let avg = 0;
+//     for(let mark of marks){
+//         sum += mark;
+//         avg = sum/studentNumber;
+//     }
+
+//     console.log(`Average marks of the students is ${avg}`);
+// }
+
+//Array practice of offer-price
 {
-    studentNumber = prompt("Enter how many students: ");
-    let marks = [];
+    prices = [250, 645, 300, 900, 50]
 
-    for(let i =0; i<studentNumber; i++){
-        marks[i] = Number(prompt("Enter mark: "));
+    let finalPrice ;
+    for(let price of prices){
+        finalPrice = price - (0.1 * price);
+        console.log(finalPrice);
     }
-    let sum =0;
-    let avg = 0;
-    for(let mark of marks){
-        sum += mark;
-        avg = sum/studentNumber;
-    }
-
-    console.log(avg);
 }
