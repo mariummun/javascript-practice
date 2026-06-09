@@ -199,12 +199,28 @@
 // }
 
 //Array practice of offer-price
-{
-    prices = [250, 645, 300, 900, 50]
+// {
+//     prices = [250, 645, 300, 900, 50]
 
-    let finalPrice ;
-    for(let price of prices){
-        finalPrice = price - (0.1 * price);
-        console.log(finalPrice);
-    }
+//     let finalPrice ;
+//     for(let price of prices){
+//         finalPrice = price - (0.1 * price);
+//         console.log(`after offer price = ${finalPrice}`);
+//     }
+// }
+
+//Array methods
+{
+    let numbers = [1, 2, 3, 4, 5, 6]
+    //change value
+    numbers.splice(1, 2, 303, 403);
+    console.log(numbers);
+
+    //add value
+    numbers.splice(3, 0, 503);
+    console.log(numbers);
+
+    //delete value
+    numbers.splice(2, 3);
+    console.log(numbers);
 }
