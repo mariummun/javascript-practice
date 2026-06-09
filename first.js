@@ -180,7 +180,7 @@
 //         console.log(city);
 //     }
 // }
-//Array practice- find avg marks
+//Array practice- find avg marks : using for-of
 // {
 //     studentNumber = prompt("Enter how many students: ");
 //     let marks = [];
@@ -198,7 +198,7 @@
 //     console.log(`Average marks of the students is ${avg}`);
 // }
 
-//Array practice of offer-price
+//Array practice of offer-price : using for-of
 // {
 //     prices = [250, 645, 300, 900, 50]
 
@@ -210,17 +210,32 @@
 // }
 
 //Array methods
+// {
+//     let numbers = [1, 2, 3, 4, 5, 6]
+//     //change value
+//     numbers.splice(1, 2, 303, 403);
+//     console.log(numbers);
+
+//     //add value
+//     numbers.splice(3, 0, 503);
+//     console.log(numbers);
+
+//     //delete value
+//     numbers.splice(2, 3);
+//     console.log(numbers);
+// }
+
+//More array practice : with methods
 {
-    let numbers = [1, 2, 3, 4, 5, 6]
-    //change value
-    numbers.splice(1, 2, 303, 403);
-    console.log(numbers);
+    companies = ["bloomberg", "microsoft", "uber", "google", "ibm", "netflix"];
+    
+    companies.shift();
+    // console.log(`deleted ${deleted}`);
+    console.log(companies);
 
-    //add value
-    numbers.splice(3, 0, 503);
-    console.log(numbers);
+    companies.splice(1, 1, "ola");
+    console.log(companies);
 
-    //delete value
-    numbers.splice(2, 3);
-    console.log(numbers);
+    companies.push("amazon");
+    console.log(companies);
 }
