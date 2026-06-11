@@ -226,16 +226,25 @@
 // }
 
 //More array practice : with methods
-{
-    companies = ["bloomberg", "microsoft", "uber", "google", "ibm", "netflix"];
+// {
+//     companies = ["bloomberg", "microsoft", "uber", "google", "ibm", "netflix"];
     
-    companies.shift();
+//     companies.shift();
     // console.log(`deleted ${deleted}`);
-    console.log(companies);
+//     console.log(companies);
 
-    companies.splice(1, 1, "ola");
-    console.log(companies);
+//     companies.splice(1, 1, "ola");
+//     console.log(companies);
 
-    companies.push("amazon");
-    console.log(companies);
+//     companies.push("amazon");
+//     console.log(companies);
+// }
+
+//functions
+{
+    function addNumbers(num1, num2){
+        console.log(num1+num2);
+    }
+
+    addNumbers(3, 5);
 }
