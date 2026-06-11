@@ -276,3 +276,16 @@
     let res = numberOfVowels("Hello from the other side");
     console.log(res);
 }
+//arrow-function : same problem
+const arrowVowelCount = (str) => {
+    let count = 0;
+    for(let ch of str){
+        if("aieouAEIOU".includes(ch)){
+            count++;
+        }
+    }
+    return count;
+}
+
+let arrowRes = arrowVowelCount("Hello from the other side");
+console.log(arrowRes);
