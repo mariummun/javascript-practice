@@ -250,10 +250,29 @@
 // }
 
 //Arrow functions
+// const arrowSum = (a,b) => {
+//     console.log(a+b);
+//     };
 
-const arrowSum = (a,b) => {
-    console.log(a+b);
-    };
+//     arrowSum(3, 4);
+//function practice - number of vowels in a string
+{
+    function numberOfVowels(str){
+        let count = 0;
+        // for(let i=0; i<str.length; i++){
+        //     if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' || str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U'){
+        //         count++;
+        //     }
+        // }    OR
+        for(let ch of str){
+            if("aeiouAEIOU".includes(ch)){
+                count++;
+            }
 
-    arrowSum(3, 4);
+        }
+        return count;
+    }
 
+    let res = numberOfVowels("Hello from the other side");
+    console.log(res);
+}
