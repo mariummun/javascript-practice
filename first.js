@@ -256,36 +256,37 @@
 
 //     arrowSum(3, 4);
 //function practice - number of vowels in a string
-{
-    function numberOfVowels(str){
-        let count = 0;
-        // for(let i=0; i<str.length; i++){
-        //     if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' || str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U'){
-        //         count++;
-        //     }
-        // }    OR
-        for(let ch of str){
-            if("aeiouAEIOU".includes(ch)){
-                count++;
-            }
+// {
+//     function numberOfVowels(str){
+//         let count = 0;
+//         // for(let i=0; i<str.length; i++){
+//         //     if(str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' || str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U'){
+//         //         count++;
+//         //     }
+//         // }    OR
+//         for(let ch of str){
+//             if("aeiouAEIOU".includes(ch)){
+//                 count++;
+//             }
 
-        }
-        return count;
-    }
+//         }
+//         return count;
+//     }
 
-    let res = numberOfVowels("Hello from the other side");
-    console.log(res);
-}
-//arrow-function : same problem
-const arrowVowelCount = (str) => {
-    let count = 0;
-    for(let ch of str){
-        if("aieouAEIOU".includes(ch)){
-            count++;
-        }
-    }
-    return count;
-}
+//     let res = numberOfVowels("Hello from the other side");
+//     console.log(res);
+// }
+// //arrow-function : same problem
+// const arrowVowelCount = (str) => {
+//     let count = 0;
+//     for(let ch of str){
+//         if("aieouAEIOU".includes(ch)){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
 
-let arrowRes = arrowVowelCount("Hello from the other side");
-console.log(arrowRes);
+// let arrowRes = arrowVowelCount("Hello from the other side");
+// console.log(arrowRes);
+
