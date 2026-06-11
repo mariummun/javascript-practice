@@ -241,10 +241,19 @@
 // }
 
 //functions
-{
-    function addNumbers(num1, num2){
-        console.log(num1+num2);
-    }
+// {
+//     function addNumbers(num1, num2){
+//         console.log(num1+num2);
+//     }
 
-    addNumbers(3, 5);
-}
+//     addNumbers(3, 5);
+// }
+
+//Arrow functions
+
+const arrowSum = (a,b) => {
+    console.log(a+b);
+    };
+
+    arrowSum(3, 4);
+
