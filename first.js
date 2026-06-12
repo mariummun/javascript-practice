@@ -307,11 +307,22 @@
 // console.log(newArray);
 
 //filter method
-{
-    let numbers = [1, 2, 3, 4, 5, 6, 6, 7, 8, 9];
+// {
+//     let numbers = [1, 2, 3, 4, 5, 6, 6, 7, 8, 9];
 
-    newArr = numbers.filter((val) => {
-        return val % 2 == 0;
+//     newArr = numbers.filter((val) => {
+//         return val % 2 == 0;
+//     })
+
+//     console.log(newArr);
+// }
+
+//reduce method
+{
+    let numbers = [3, 5, 1, 8, 10, 57, 2];
+
+    const newArr = numbers.reduce((prev, curr) => {
+        return prev > curr ? prev : curr;
     })
 
     console.log(newArr);
