@@ -290,3 +290,9 @@
 // let arrowRes = arrowVowelCount("Hello from the other side");
 // console.log(arrowRes);
 
+//forEach Loop
+let arr = [1, 3, 5, 7];
+
+arr.forEach(function printVal(val){
+    console.log(val);
+})
