@@ -291,8 +291,17 @@
 // console.log(arrowRes);
 
 //forEach Loop
-let arr = [1, 2, 3, 4, 5];
+// let arr = [1, 2, 3, 4, 5];
 
-arr.forEach((val) => {
-    console.log(val * val);
+// arr.forEach((val) => {
+//     console.log(val * val);
+// })
+
+//map method
+let numbers = [34, 45, 60];
+
+newArray = numbers.map((val) => {
+    return (val * 3);
 })
+
+console.log(newArray);
