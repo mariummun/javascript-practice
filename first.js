@@ -318,11 +318,21 @@
 // }
 
 //reduce method
-{
-    let numbers = [3, 5, 1, 8, 10, 57, 2];
+// {
+//     let numbers = [3, 5, 1, 8, 10, 57, 2];
 
-    const newArr = numbers.reduce((prev, curr) => {
-        return prev > curr ? prev : curr;
+//     const newArr = numbers.reduce((prev, curr) => {
+//         return prev > curr ? prev : curr;
+//     })
+
+//     console.log(newArr);
+// }
+//practice : methods 
+{
+    let marks = [80, 99, 58, 92, 89, 90, 78];
+
+    let newArr = marks.filter((val) => {
+        return val>90;
     })
 
     console.log(newArr);
