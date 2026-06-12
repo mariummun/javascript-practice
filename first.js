@@ -291,8 +291,8 @@
 // console.log(arrowRes);
 
 //forEach Loop
-let arr = [1, 3, 5, 7];
+let arr = ["seoul", "dhaka", "tokyo", "kyoto", "london"];
 
-arr.forEach(function printVal(val){
-    console.log(val);
+arr.forEach((val) => {
+    console.log(val.toUpperCase());
 })
