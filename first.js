@@ -298,10 +298,21 @@
 // })
 
 //map method
-let numbers = [34, 45, 60];
+// let numbers = [34, 45, 60];
 
-newArray = numbers.map((val) => {
-    return (val * 3);
-})
+// newArray = numbers.map((val) => {
+//     return (val * 3);
+// })
 
-console.log(newArray);
+// console.log(newArray);
+
+//filter method
+{
+    let numbers = [1, 2, 3, 4, 5, 6, 6, 7, 8, 9];
+
+    newArr = numbers.filter((val) => {
+        return val % 2 == 0;
+    })
+
+    console.log(newArr);
+}
