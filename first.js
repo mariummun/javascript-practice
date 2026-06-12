@@ -328,12 +328,32 @@
 //     console.log(newArr);
 // }
 //practice : methods 
-{
-    let marks = [80, 99, 58, 92, 89, 90, 78];
+// {
+//     let marks = [80, 99, 58, 92, 89, 90, 78];
 
-    let newArr = marks.filter((val) => {
-        return val>90;
+//     let newArr = marks.filter((val) => {
+//         return val>90;
+//     })
+
+//     console.log(newArr);
+// }
+{
+    let n = prompt("Enter your number: ");
+    let arr = [];
+
+    for(let i=1; i<=n; i++){
+        arr[i] = i;
+    }
+
+    let sumArr = arr.reduce((prev, curr) => {
+        return prev+curr;
     })
 
-    console.log(newArr);
+    console.log(`The sum of numbers from 1 to ${n} is = ${sumArr}`);
+
+    let mulArr = arr.reduce((prev, curr) => {
+        return prev*curr;
+    })
+
+    console.log(`The product of numbers from 1 to ${n} is = ${mulArr}`);
 }
