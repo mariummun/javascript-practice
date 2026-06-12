@@ -342,8 +342,10 @@
     let arr = [];
 
     for(let i=1; i<=n; i++){
-        arr[i] = i;
+        arr[i-1] = i;
     }
+
+    console.log(arr);
 
     let sumArr = arr.reduce((prev, curr) => {
         return prev+curr;
